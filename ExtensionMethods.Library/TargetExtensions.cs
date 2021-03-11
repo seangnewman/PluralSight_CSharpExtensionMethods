@@ -17,11 +17,11 @@ namespace ExtensionMethods.Library
 
         //}
 
-        public static string GetStandardizedId(this Target target)
-        {
-            return target.GetId().ToUpper();
+        //public static string GetStandardizedId(this Target target)
+        //{
+        //    return target.GetId().ToUpper();
 
-        }
+        //}
 
 
     }

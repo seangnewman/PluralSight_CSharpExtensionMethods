@@ -13,17 +13,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\ExtensionMethods.Library\ExtensionMethods.Library.csproj" />
+    <ProjectReference Include="..\ExtensionMethods.Contracts\ExtensionMethods.Contracts.csproj" />
     <ProjectReference Include="..\ExtensionMethods.Shared\ExtensionMethods.Shared.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <None Update="appsettings.json">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Update="secrets\secrets.json">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
   </ItemGroup>
 
 </Project>
